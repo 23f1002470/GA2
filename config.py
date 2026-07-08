@@ -11,7 +11,7 @@ Q1_ALLOWED_ORIGIN = "https://dash-gbrt40.example.com"
 
 # 3. Q2: OAuth JWKS (Issuer, Audience, and Public Key)
 ISSUER = "https://idp.exam.local"
-AUDIENCE = "..."
+AUDIENCE = "tds-6v08jsh7.apps.exam.local"
 PUBLIC_KEY_PEM = """MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2okOHspNjgA+2rTLbeuY
 cxiP/hG8C6Sb9iwg3yiLAA4HCnpITcbWCSelbvbYGuc3EbNy4xFyf5Cbj5DHJMID
 EkryOgyd2giIIIBOUBj8S63uGcnRpOBh9NFatfNwheKuzsPuVNldu6A9cNteNpXc
@@ -22,8 +22,8 @@ dQIDAQAB"""
 
 # 4. Q3: 12-Factor Config (Manually merge the variables)
 Q3_PORT = 8732
-Q3_WORKERS = 5
-Q3_DEBUG = False
+Q3_WORKERS = 13
+Q3_DEBUG = true
 Q3_LOG_LEVEL = "info"
 
 # 5. Q5: Analytics (Find the API key in the Q5 instruction tab)
